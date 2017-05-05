@@ -1,20 +1,10 @@
 # 우리 가족 소개하기
 
-![Alt text](https://g.gravizo.com/svg?
-  digraph G {
-    aize ="4,4";
-    main [shape=box];
-    main -> parse [weight=8];
-    parse -> execute;
-    main -> init [style=dotted];
-    main -> cleanup;
-    execute -> { make_string; printf}
-    init -> make_string;
-    edge [color=red];
-    main -> printf [style=bold,label="100 times"];
-    make_string [label="make a string"];
-    node [shape=box,style=filled,color=".7 .3 1.0"];
-    execute -> compare;
-  }
-)
+## 가계도
+![가계도](./가계도.png)
+우리 가족은 아빠 엄마 그리고 강혜나로 구성 되어 있어요.
 
+
+## 좋아하는 음식
+
+## 공통점
